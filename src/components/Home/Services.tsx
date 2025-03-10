@@ -1,31 +1,31 @@
-import { motion } from 'framer-motion';
-import { useLanguage } from '../../contexts/useLanguage';
+import { motion } from "framer-motion";
+import { useLanguage } from "../../contexts/useLanguage";
 
 const services = [
   {
-    titleKey: 'services.marketing.title',
-    descriptionKey: 'services.marketing.description',
-    image: '/marketing-ai.svg',
-    url: 'https://ai-marketing.jytech.us'
+    titleKey: "services.marketing.title",
+    descriptionKey: "services.marketing.description",
+    image: "/marketing-ai.svg",
+    url: "https://ai-marketing.jytech.us",
   },
   {
-    titleKey: 'services.government.title',
-    descriptionKey: 'services.government.description',
-    image: '/gov-ai.svg',
-    url: 'https://ai-gov.jytech.us'
+    titleKey: "services.government.title",
+    descriptionKey: "services.government.description",
+    image: "/gov-ai.svg",
+    url: "https://ai-gov.jytech.us",
   },
   {
-    titleKey: 'services.ecommerce.title',
-    descriptionKey: 'services.ecommerce.description',
-    image: '/ecommerce.svg',
-    url: '#ecommerce'
+    titleKey: "services.ecommerce.title",
+    descriptionKey: "services.ecommerce.description",
+    image: "/ecommerce.svg",
+    url: "https://ai-marketing.jytech.us",
   },
   {
-    titleKey: 'services.consulting.title',
-    descriptionKey: 'services.consulting.description',
-    image: '/consulting.svg',
-    url: 'https://www.linkedin.com/in/weijingjaylin/'
-  }
+    titleKey: "services.consulting.title",
+    descriptionKey: "services.consulting.description",
+    image: "/consulting.svg",
+    url: "https://www.linkedin.com/in/weijingjaylin/",
+  },
 ];
 
 export default function Services() {
@@ -42,7 +42,7 @@ export default function Services() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl font-bold text-gray-900">
-            {t('services.title')}
+            {t("services.title")}
           </h2>
         </motion.div>
 
@@ -70,9 +70,7 @@ export default function Services() {
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">
                     {t(service.titleKey)}
                   </h3>
-                  <p className="text-gray-600">
-                    {t(service.descriptionKey)}
-                  </p>
+                  <p className="text-gray-600">{t(service.descriptionKey)}</p>
                 </div>
               </a>
             </motion.div>
