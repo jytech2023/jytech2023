@@ -8,16 +8,21 @@ const getInitialLanguage = (): Language => {
   // Check localStorage first
   const storedLanguage = localStorage.getItem(LANGUAGE_STORAGE_KEY) as Language;
   if (storedLanguage && (storedLanguage === 'zh' || storedLanguage === 'en')) {
+    console.log('Using stored language preference:', storedLanguage);
     return storedLanguage;
   }
 
   // Check system language
   const systemLanguages = navigator.languages || [navigator.language];
+  console.log('Detected system languages:', systemLanguages);
+  
   const preferredLanguage = systemLanguages
     .map(lang => lang.toLowerCase())
     .find(lang => lang.startsWith('zh') || lang === 'en');
 
-  return preferredLanguage?.startsWith('zh') ? 'zh' : 'en';
+  const detectedLanguage = preferredLanguage?.startsWith('zh') ? 'zh' : 'en';
+  console.log('Selected language based on system preference:', detectedLanguage);
+  return detectedLanguage;
 };
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {

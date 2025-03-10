@@ -14,6 +14,7 @@ export const translations = {
     'hero.subtitle': '通过营销和治理领域的尖端AI解决方案，实现业务转型。',
     'hero.button.marketing': 'AI营销',
     'hero.button.government': 'AI政务',
+    'hero.image.alt': 'AI技术插图',
     
     // Services Section
     'services.title': '我们的服务',
@@ -47,6 +48,7 @@ export const translations = {
     'hero.subtitle': 'Transform your operations with cutting-edge AI solutions in marketing and governance.',
     'hero.button.marketing': 'AI Marketing',
     'hero.button.government': 'AI Government',
+    'hero.image.alt': 'AI Technology Illustration',
     
     // Services Section
     'services.title': 'Our Services',
