@@ -25,7 +25,7 @@ export const translations = {
     'services.ecommerce.title': '电子商务解决方案',
     'services.ecommerce.description': 'AI增强型电子商务平台，实现无缝在线业务运营。',
     'services.consulting.title': '商业咨询服务',
-    'services.consulting.description': '由Jay Lin提供专业的AI战略咨询，助您实现数字化转型和业务增长。点击了解更多。',
+    'services.consulting.description': '专业的AI战略咨询，助您实现数字化转型和业务增长。点击了解更多。',
     
     // Footer
     'footer.about': '关于JY Tech',
@@ -59,7 +59,7 @@ export const translations = {
     'services.ecommerce.title': 'E-commerce Solutions',
     'services.ecommerce.description': 'AI-enhanced e-commerce platforms for seamless online business operations.',
     'services.consulting.title': 'Business Consulting',
-    'services.consulting.description': 'Expert AI strategy consulting by Jay Lin to drive your digital transformation and business growth. Click to connect.',
+    'services.consulting.description': 'Expert AI strategy consulting to drive your digital transformation and business growth. Connect with our consultant.',
     
     // Footer
     'footer.about': 'About JY Tech',
