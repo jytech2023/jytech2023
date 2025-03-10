@@ -4,6 +4,8 @@
 [![Contact](https://img.shields.io/badge/Contact-415--851--1937-green)](tel:4158511937)
 [![AI Marketing](https://img.shields.io/badge/AI%20Marketing-Visit-orange)](https://ai-marketing.jytech.us)
 [![AI Gov](https://img.shields.io/badge/AI%20Gov-Visit-purple)](https://ai-gov.jytech.us)
+[![Vite](https://img.shields.io/badge/Built%20with-Vite-646CFF)](https://vitejs.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC)](https://www.typescriptlang.org/)
 [![Deploy Status](https://img.shields.io/badge/deploy-ready-success)](https://vercel.com)
 
 ## About Us
@@ -14,47 +16,69 @@ JY Tech is dedicated to revolutionizing the intersection of technology and comme
 - Enhance consumer engagement through smart automation
 - Streamline operations with cutting-edge technology
 
+## Tech Stack
+
+- **Frontend**: React 19 with TypeScript
+- **Build Tool**: Vite 6
+- **Styling**: TailwindCSS
+- **Animations**: Framer Motion
+- **Routing**: React Router v7
+- **Deployment**: Vercel
+
 ## Project Structure
 
 ```plaintext
-├── website/            # Website source code
-│   ├── src/           # React components and logic
-│   ├── public/        # Static assets
-│   └── dist/         # Build output
-├── vercel.json        # Vercel deployment config
+├── src/                # Source code
+│   ├── components/     # React components
+│   │   ├── Home/      # Home page components
+│   │   └── Layout/    # Layout components
+│   ├── contexts/      # React contexts
+│   └── assets/        # Project assets
+├── public/            # Static assets
+├── dist/             # Build output
 └── README.md         # Project documentation
 ```
+
+## Features
+
+### 🌐 Bilingual Support
+
+- Automatic language detection based on system preferences
+- Supports English and Chinese
+- Persistent language selection using localStorage
+- Centralized translation system
 
 ## Development
 
 ```bash
 # Install dependencies
-cd website && npm install
+npm install
 
 # Start development server
 npm run dev
 
 # Build for production
 npm run build
+
+# Preview production build
+npm run preview
 ```
 
 ## Deployment
 
 This project is configured for seamless deployment on Vercel:
 
-1. Connect your GitHub repository to Vercel
-2. Vercel will automatically detect the project configuration
-3. The following settings are pre-configured in `vercel.json`:
-   - Build Command: `cd website && npm run build`
-   - Output Directory: `website/dist`
-   - Install Command: `cd website && npm install`
+- Build Command: `npm run build`
+- Output Directory: `dist`
+- Install Command: `npm install`
+- Framework Preset: Vite
 
 ## Services
 
 ### 🤖 AI Solutions
 
 - **[AI Marketing Platform](https://ai-marketing.jytech.us)**: Advanced AI-driven marketing automation and analytics
-- **[AI Government Solutions](https://ai-gov.jytech.us)**: Smart governance and public sector automation (Sienovo)
+- **[AI Government Solutions](https://ai-gov.jytech.us/Sienovo)**: Smart governance and public sector automation
 
 ### Other Services
 
@@ -67,7 +91,6 @@ This project is configured for seamless deployment on Vercel:
 
 - Website: [jytech.us](https://www.jytech.us)
 - Phone: [(415) 851-1937](tel:4158511937)
-- Career Opportunities: [Join Our Team](https://www.jytech.us/career)
 
 ## License
 
