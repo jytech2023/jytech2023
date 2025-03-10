@@ -23,7 +23,6 @@ JY Tech is dedicated to revolutionizing the intersection of technology and comme
 - **Styling**: TailwindCSS
 - **Animations**: Framer Motion
 - **Routing**: React Router v7
-- **Deployment**: Vercel
 
 ## Project Structure
 
