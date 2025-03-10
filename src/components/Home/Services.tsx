@@ -24,7 +24,7 @@ const services = [
     titleKey: 'services.consulting.title',
     descriptionKey: 'services.consulting.description',
     image: '/consulting.svg',
-    url: '#consulting'
+    url: 'https://www.linkedin.com/in/weijingjaylin/'
   }
 ];
 
